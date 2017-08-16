@@ -19,4 +19,5 @@
 * [Challenge 13](php/challenge-13.md)
 * [Challenge 14](php/challenge-14.md)
 * [Challenge 15](php/challenge-15.md)
+* [Challenge 16](php/challenge-16.md)
 
