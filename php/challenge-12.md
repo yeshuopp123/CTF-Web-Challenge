@@ -1,8 +1,6 @@
 # Challenge 
 ```php 
 <?php 
-
-include "flag2.php";
 error_reporting(0);
 show_source(__FILE__);
 
