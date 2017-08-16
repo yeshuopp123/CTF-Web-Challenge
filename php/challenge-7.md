@@ -69,3 +69,4 @@ if(	URL_HANDLE::GetInstance()->post->username == "admin" &&
 
 # Refference 
 + [chybeta : Password reset](https://chybeta.github.io/2017/06/30/%C2%96ringzer0team-web-writeup/#Password-reset)
++ [chbeta : Password reset reloaded](https://chybeta.github.io/2017/06/30/%C2%96ringzer0team-web-writeup/#Password-reset-reloaded)
