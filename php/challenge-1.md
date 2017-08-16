@@ -73,3 +73,7 @@ if ($uid == 0) {
         echo "Welcome back user\n";
 }
 ```
+
+# Reffenence
++ [PHP Challenge 2015](http://www.sektioneins.de/blog/15-07-31-php_challenge_2015.html)
++ [PHP Challenge 2015 Solution](http://www.sektioneins.de/blog/15-08-03-php_challenge_2015_solution.html)
