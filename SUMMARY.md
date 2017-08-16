@@ -9,4 +9,5 @@
 * [Challenge 3](php/challenge-3.md)
 * [Challenge 4](php/challenge-4.md)
 * [Challenge 5](php/challenge-5.md)
+* [Challenge 6](php/challenge-6.md)
 
