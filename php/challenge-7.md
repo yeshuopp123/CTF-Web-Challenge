@@ -25,7 +25,7 @@ if(URL_HANDLE::GetInstance()->get->k != null) {
 ```
 
 # Challenge 2
-```
+```php
 <?php 
 $hSql = new MYSQL_HANDLE();
 $success = "";
