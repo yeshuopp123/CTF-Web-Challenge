@@ -35,4 +35,5 @@ if(file_put_contents($full_filename, '<?php '.$data)){
 ```
 
 # Refference 
-+ [一道好玩的webshell题 ](https://chybeta.github.io/2017/07/15/%E4%B8%80%E9%81%93%E5%A5%BD%E7%8E%A9%E7%9A%84webshell%E9%A2%98/)
++ [php特殊webshell(无数字,字母,位运算)](http://www.jianshu.com/p/d23d4b1358f2)
++ [一道好玩的webshell题](https://chybeta.github.io/2017/07/15/%E4%B8%80%E9%81%93%E5%A5%BD%E7%8E%A9%E7%9A%84webshell%E9%A2%98/)
