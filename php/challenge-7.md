@@ -25,4 +25,4 @@ if(URL_HANDLE::GetInstance()->get->k != null) {
 ```
 
 # Refference 
-+ [Password reset](https://chybeta.github.io/2017/06/30/%C2%96ringzer0team-web-writeup/#Password-reset)
++ [chybeta : Password reset](https://chybeta.github.io/2017/06/30/%C2%96ringzer0team-web-writeup/#Password-reset)
