@@ -39,5 +39,6 @@ payload：
 ```
 ?foo={"bar1":"2017e","bar2":[[],2,3,4,5],"a2":["nudt"]}&cat[0]=ahtctf2016&cat[1][]=&dog=%00
 ```
+
 # Refference
  
