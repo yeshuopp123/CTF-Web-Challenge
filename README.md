@@ -25,5 +25,19 @@
 * [Challenge 16](php/challenge-16.md)：SQL注入、逻辑漏洞
 * [Challenge 17](php/challenge-17.md)：变量覆盖
 
-
+## 分类
++ SQL注入
+    + [Challenge 11](php/challenge-11.md)
+    + [Challenge 14](php/challenge-14.md)
+    + [Challenge 16](php/challenge-16.md)
++ 命令执行
+    + [Challenge 12](php/challenge-12.md)
++ php弱类型比较等
+    + [Challenge 10](php/challenge-10.md)
+    + [Challenge 13](php/challenge-13.md)
+    + [Challenge 15](php/challenge-15.md)
++ php反序列化
+    + [Challenge 9](php/challenge-9.md)
++ php变量覆盖
+    + [Challenge 17](php/challenge-17.md)
 
