@@ -45,5 +45,6 @@
 + php变量覆盖
     + [Challenge 17](php/challenge-17.md)
 + 其他
+    + [Challenge 3](php/challenge-3.md)
     + [Challenge 5](php/challenge-5.md)
 
