@@ -14,6 +14,8 @@ else{
 ?>
 ```
 # Solution
+输入的name和password不能一样，之后的sha1比较用了`===`，不存在弱类型问题。但sha1不能处理数组，当我们传入`name[]=1&password[]=2`时，会造成`sha1(Array) === sha1(Array)`，即`NULL===NULL`，从而吐出flag
+
 payload:
 ```
 ?password=9e9%00*-*
