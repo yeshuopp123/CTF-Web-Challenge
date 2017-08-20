@@ -23,7 +23,7 @@
 * [Challenge 14](php/challenge-14.md)
 * [Challenge 15](php/challenge-15.md)
 * [Challenge 16](php/challenge-16.md)
-* [Challenge 17](php/challenge-17.md)
+* [Challenge 17](php/challenge-17.md)（变量覆盖漏洞）
 
 
 
