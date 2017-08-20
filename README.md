@@ -27,6 +27,7 @@
 
 ## 分类
 + SQL注入
+    + [Challenge 8](php/challenge-8.md)
     + [Challenge 11](php/challenge-11.md)
     + [Challenge 14](php/challenge-14.md)
     + [Challenge 16](php/challenge-16.md)
