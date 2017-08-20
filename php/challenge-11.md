@@ -47,6 +47,8 @@ SELECT * FROM admin WHERE pass = ''or'<trash>'
 ```
 SELECT * FROM admin WHERE pass = ''or'6<trash>'
 ```
+成功注入。
+
 payload:
 ```
 ?pwd=ffifdyop
