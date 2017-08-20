@@ -1,4 +1,5 @@
 # Challenge
+
 ```php 
 #GOAL: get password from admin;
 error_reporting(0);
@@ -25,3 +26,6 @@ $row = mysql_fetch_assoc($result);
 echo "Hello ".$row['name']."</br>";
 echo "Your password is:".$row['pass']."</br>";
 ```
+
+# Refference 
++ php4fun第一题
