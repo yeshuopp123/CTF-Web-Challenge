@@ -37,6 +37,7 @@
     + [Challenge 6](php/challenge-6.md)
     + [Challenge 12](php/challenge-12.md)
 + php弱类型比较等
+    + [Challenge 2](php/challenge-2.md)
     + [Challenge 10](php/challenge-10.md)
     + [Challenge 13](php/challenge-13.md)
     + [Challenge 15](php/challenge-15.md)
