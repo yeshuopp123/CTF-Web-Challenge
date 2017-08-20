@@ -18,7 +18,7 @@ else{
 
 payload:
 ```
-?password=9e9%00*-*
+?name[]=1&password[]=2
 ```
 
 # Refference
