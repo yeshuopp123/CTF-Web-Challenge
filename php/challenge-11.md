@@ -32,6 +32,21 @@ mysql_close($link);
 ```
 
 # Solution
+sql语句为`"SELECT * FROM admin WHERE pass = '".md5($password,true)."'"`
+
+若md5后的hex转换成字符串后，如果包含`'or'<trash>`这样的字符串，`<trash>`的意思是垃圾值/可忽略
+
+则拼接后构成的语句为：
+```
+SELECT * FROM admin WHERE pass = ''or'<trash>' 
+```
+
+而字符串ffifdyop，md5后，276f722736c95d99e921722cf9ed621c，再转成字符串：`'or'6<trash>`，
+
+拼接后的语句为：
+```
+SELECT * FROM admin WHERE pass = ''or'6<trash>'
+```
 payload:
 ```
 ?pwd=ffifdyop
