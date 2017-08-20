@@ -19,7 +19,7 @@
 * [Challenge 10](php/challenge-10.md)
 * [Challenge 11](php/challenge-11.md)
 * [Challenge 12](php/challenge-12.md)
-* [Challenge 13](php/challenge-13.md)
+* [Challenge 13](php/challenge-13.md)：php弱类型比较、strcmp比较、eregi的%00截断
 * [Challenge 14](php/challenge-14.md)：SQL注入（with rollup）
 * [Challenge 15](php/challenge-15.md)：php弱类型比较
 * [Challenge 16](php/challenge-16.md)：SQL注入、逻辑漏洞
