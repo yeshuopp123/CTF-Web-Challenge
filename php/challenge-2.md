@@ -26,4 +26,4 @@ payload：
 ```
 
 # Refference
- + [chybeta: php是最好的语言](https://chybeta.github.io/2017/08/18/XNUCA-2017-Web%E4%B8%93%E9%A2%98%E8%B5%9B%E5%89%8D%E6%8C%87%E5%AF%BC-php%E6%98%AF%E6%9C%80%E5%A5%BD%E7%9A%84%E8%AF%AD%E8%A8%80-writeup/#more)
+ + [chybeta: php是最好的语言](http://www.cnblogs.com/xishaonian/p/6724964.html)
