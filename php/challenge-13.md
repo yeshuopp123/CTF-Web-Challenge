@@ -1,40 +1,35 @@
 # Challenge
 ```php
 <?php
-$a=0;
-$b=0;
-$c=0;
-if (isset($_GET['aaa']))
-{
-        $aaa = $_GET['aaa'];
-		$aaa=="1"?die("Emmm..."):NULL;
-        switch ($aaa)
-        {
-        case 0:
-        case 1:
-                $a=1;
-                break;
-        }
+show_source(__FILE__);
+$v1=0;$v2=0;$v3=0;
+$a=(array)json_decode(@$_GET['foo']);
+if(is_array($a)){
+   is_numeric(@$a["bar1"])?die("nope"):NULL;
+   if(@$a["bar1"]){
+	   ($a["bar1"]>2016)?$v1=1:NULL;
+   }
+   if(is_array(@$a["bar2"])){
+	   if(count($a["bar2"])!==5 OR !is_array($a["bar2"][0])) die("nope");
+	   $pos = array_search("nudt", $a["a2"]);
+	   $pos===false?die("nope"):NULL;
+	   foreach($a["bar2"] as $key=>$val){
+		   $val==="nudt"?die("nope"):NULL;
+	   }
+	   $v2=1;
+   }
 }
-$bbb=(array)json_decode(@$_GET['bbb']);
-if(is_array($bbb)){
-    is_numeric(@$bbb["ccc"])?die("Emmm..."):NULL;
-    if(@$bbb["ccc"]){
-        ($bbb["ccc"]>2017)?$b=1:NULL;
-    }
-	if(is_array(@$bbb["ddd"])){
-        if(count($bbb["ddd"])!==2 OR !is_array($bbb["ddd"][0])) die("Emmm...");
-        $eee = array_search("XMAN", $bbb["ddd"]);
-        $eee===false?die("Emmm..."):NULL;
-        foreach($bbb["ddd"] as $key=>$val){
-            $val==="XMAN"?die("Emmm..."):NULL;
-        }
-        $c=1;
+$c=@$_GET['cat'];
+$d=@$_GET['dog'];
+if(@$c[1]){
+   if(!strcmp($c[1],$d) && $c[1]!==$d){
+	   eregi("3|1|c",$d.$c[0])?die("nope"):NULL;
+	   strpos(($c[0].$d), "htctf2016")?$v3=1:NULL;
+   }
 }
-}
-if($a && $b && $c){
-    include "flag.php";
-    echo $flag;
+if($v1 && $v2 && $v3){
+   include "flag.php";
+   echo $flag;
 }
 ?>
 ```
