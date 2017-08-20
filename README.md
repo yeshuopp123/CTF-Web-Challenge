@@ -33,6 +33,7 @@
     + [Challenge 14](php/challenge-14.md)
     + [Challenge 16](php/challenge-16.md)
 + 命令执行
+    + [Challenge 4](php/challenge-4.md)
     + [Challenge 6](php/challenge-6.md)
     + [Challenge 12](php/challenge-12.md)
 + php弱类型比较等
