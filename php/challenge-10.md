@@ -29,6 +29,8 @@ else
 ```
 
 # Solution
+php弱类型绕过。当`$a`为php://input，`$data`可以通过php://input来接受post数据。`$id`传一个字符进去，会被转换为0。对`$b`，要求长度大于5，其次要求满足`eregi`的要求和首字母不为4。可以设置`$b`为`%00111111`，这样，substr（）会发生截断，在匹配时时进行eregi("111","1114")满足，同时%00对strlen不会发生截断。
+
 payload:
 ```
 ?id=a&a=php://input&b=%0011111
