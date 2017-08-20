@@ -15,7 +15,7 @@
 * [Challenge 6](php/challenge-6.md)
 * [Challenge 7](php/challenge-7.md)
 * [Challenge 8](php/challenge-8.md)
-* [Challenge 9](php/challenge-9.md)
+* [Challenge 9](php/challenge-9.md)：php Session 序列化问题
 * [Challenge 10](php/challenge-10.md)：php://input、php弱类型比较、eregi的%00截断
 * [Challenge 11](php/challenge-11.md)：SQL注入（md5($password,true)）
 * [Challenge 12](php/challenge-12.md)：命令执行漏洞
