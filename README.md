@@ -34,6 +34,9 @@
     + [Challenge 11](php/challenge-11.md)
     + [Challenge 14](php/challenge-14.md)
     + [Challenge 16](php/challenge-16.md)
+    + [Challenge 18](php/challenge-18.md) 
+    + [Challenge 19](php/challenge-19.md) 
+
 + 命令执行
     + [Challenge 4](php/challenge-4.md)
     + [Challenge 6](php/challenge-6.md)
