@@ -52,5 +52,4 @@ if(!empty($message)){
 
 # Refference
 + 三个白帽
-
 + [MySQLi-Error Injection](http://0x48.pw/2016/04/08/0x18/)
