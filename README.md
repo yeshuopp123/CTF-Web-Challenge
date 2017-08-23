@@ -25,7 +25,8 @@
 * [Challenge 15](php/challenge-15.md)：php弱类型比较
 * [Challenge 16](php/challenge-16.md)：SQL注入、逻辑漏洞
 * [Challenge 17](php/challenge-17.md)：变量覆盖
-
++ [Challenge 18](php/challenge-18.md)：SQL注入
++ [Challenge 19](php/challenge-19.md): SQL注入（报错）
 ## 分类
 + SQL注入
     + [Challenge 7](php/challenge-7.md)
