@@ -18,16 +18,16 @@
 * [Challenge 8](php/challenge-8.md)
 * [Challenge 9](php/challenge-9.md)：php Session 序列化问题
 * [Challenge 10](php/challenge-10.md)：php://input、php弱类型比较、eregi的%00截断
-* [Challenge 11](php/challenge-11.md)：SQL注入（md5($password,true)）
+* [Challenge 11](php/challenge-11.md)：SQL注入
 * [Challenge 12](php/challenge-12.md)：命令执行漏洞
 * [Challenge 13](php/challenge-13.md)：php弱类型比较、strcmp比较、eregi的%00截断
-* [Challenge 14](php/challenge-14.md)：SQL注入（with rollup）
+* [Challenge 14](php/challenge-14.md)：SQL注入
 * [Challenge 15](php/challenge-15.md)：php弱类型比较
 * [Challenge 16](php/challenge-16.md)：SQL注入、逻辑漏洞
 * [Challenge 17](php/challenge-17.md)：变量覆盖
 * [Challenge 18](php/challenge-18.md)：SQL注入
-* [Challenge 19](php/challenge-19.md)：SQL注入（报错）
-
+* [Challenge 19](php/challenge-19.md)：SQL注入
+* [Challenge 20](php/challenge-20.md)：SQL注入
 ## 分类
 + SQL注入
     + [Challenge 7](php/challenge-7.md)
